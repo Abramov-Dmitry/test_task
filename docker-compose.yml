@@ -1,0 +1,68 @@
+x-python-services-common:
+  environment:
+    &python-services-common-env
+      PYTHONPATH: /app
+
+services:
+  mlflow:
+    container_name: mlflow
+    image: ghcr.io/mlflow/mlflow
+    user: 1000:1000
+    ports:
+    - "5000:5000/tcp"
+    volumes:
+      - ./mlflow/mlruns:/mlruns
+    command: mlflow server --host 0.0.0.0
+
+  classifier:
+    build: ./classifier
+    environment:
+      - PYTHONPATH=/app
+    ports:
+      - "5001:5001/tcp"
+    volumes:
+      - ./mlflow:/mlflow
+      - ./classifier/app:/app
+    depends_on:
+        - mlflow
+    command: uvicorn service:app --host 0.0.0.0 --port 5001 --reload
+  
+  forecaster:
+    build: ./temperature_forecasting
+    container_name: forecaster
+    environment:
+      - PYTHONPATH=/app
+    ports:
+      - "5002:5002/tcp"
+    volumes:
+      - ./mlflow:/mlflow
+      - ./temperature_forecasting/app:/app
+    depends_on:
+        - classifier
+    command: uvicorn service:app --host 0.0.0.0 --port 5002 --reload
+
+  degeneration:
+      build: ./text_generation 
+      container_name: generation
+      environment:
+        - PYTHONPATH=/app
+      ports:
+        - "5003:5003/tcp"
+      volumes:
+        - ./mlflow:/mlflow
+        - ./text_generation/app:/app
+      depends_on:
+        - forecaster
+      command: python3 service.py
+
+  gradio:
+    build: ./gradio_docker
+    volumes:
+      - ./gradio_docker/app:/app
+    depends_on:
+        - degeneration
+    ports:
+      - "8000:8000/tcp"
+    environment:
+      - PYTHONPATH=/app
+    command: uvicorn gradio_server:app --host 0.0.0.0 --port 8000 --reload
