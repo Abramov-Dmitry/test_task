@@ -17,7 +17,7 @@
 
 ## Способ запуска:
 ```sh
-git clone 
+git clone https://github.com/Abramov-Dmitry/test_task.git
 
 cd test_task
 
