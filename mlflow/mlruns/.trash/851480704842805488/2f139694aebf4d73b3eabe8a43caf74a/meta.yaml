@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/851480704842805488/2f139694aebf4d73b3eabe8a43caf74a/artifacts
+deleted_time: 1714402842240
+end_time: 1714166244673
+entry_point_name: ''
+experiment_id: '851480704842805488'
+lifecycle_stage: deleted
+run_id: 2f139694aebf4d73b3eabe8a43caf74a
+run_name: spiffy-hare-609
+run_uuid: 2f139694aebf4d73b3eabe8a43caf74a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714166244488
+status: 3
+tags: []
+user_id: user

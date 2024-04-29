@@ -1,0 +1,16 @@
+artifact_uri: file:///mlflow/mlruns/510861392085035985/f9f9a37a6ec84f8fa7c8f71c52d6394a/artifacts
+deleted_time: 1714402857936
+end_time: 1714167803045
+entry_point_name: ''
+experiment_id: '510861392085035985'
+lifecycle_stage: deleted
+run_id: f9f9a37a6ec84f8fa7c8f71c52d6394a
+run_name: languid-moose-671
+run_uuid: f9f9a37a6ec84f8fa7c8f71c52d6394a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167799831
+status: 3
+tags: []
+user_id: user

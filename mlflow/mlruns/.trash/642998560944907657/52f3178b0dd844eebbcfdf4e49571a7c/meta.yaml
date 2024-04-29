@@ -1,0 +1,16 @@
+artifact_uri: file:///mlflow/mlruns/642998560944907657/52f3178b0dd844eebbcfdf4e49571a7c/artifacts
+deleted_time: 1714402952368
+end_time: 1714169814429
+entry_point_name: ''
+experiment_id: '642998560944907657'
+lifecycle_stage: deleted
+run_id: 52f3178b0dd844eebbcfdf4e49571a7c
+run_name: nebulous-midge-160
+run_uuid: 52f3178b0dd844eebbcfdf4e49571a7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714169811819
+status: 3
+tags: []
+user_id: user

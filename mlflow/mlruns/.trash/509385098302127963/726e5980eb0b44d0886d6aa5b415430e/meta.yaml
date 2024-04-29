@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/509385098302127963/726e5980eb0b44d0886d6aa5b415430e/artifacts
+deleted_time: 1714167784742
+end_time: 1714166293902
+entry_point_name: ''
+experiment_id: '509385098302127963'
+lifecycle_stage: deleted
+run_id: 726e5980eb0b44d0886d6aa5b415430e
+run_name: fortunate-robin-472
+run_uuid: 726e5980eb0b44d0886d6aa5b415430e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714166291046
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///mlflow/mlruns/225055941937329142/f93d5edd01d54fdabfe3f127cb07b009/artifacts
+end_time: 1714344649993
+entry_point_name: ''
+experiment_id: '225055941937329142'
+lifecycle_stage: active
+run_id: f93d5edd01d54fdabfe3f127cb07b009
+run_name: capable-ant-419
+run_uuid: f93d5edd01d54fdabfe3f127cb07b009
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714344649980
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,7 @@
+artifact_location: file:///home/user/gitlab/test_task/mlflow/mlruns/186409827072415590
+creation_time: 1714170400240
+experiment_id: '186409827072415590'
+last_update_time: 1714402956931
+lifecycle_stage: deleted
+name: rf_model666
+tags: {}

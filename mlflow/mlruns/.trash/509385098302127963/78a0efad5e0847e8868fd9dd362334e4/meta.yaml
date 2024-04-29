@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/509385098302127963/78a0efad5e0847e8868fd9dd362334e4/artifacts
+deleted_time: 1714167784742
+end_time: 1714166494602
+entry_point_name: ''
+experiment_id: '509385098302127963'
+lifecycle_stage: deleted
+run_id: 78a0efad5e0847e8868fd9dd362334e4
+run_name: secretive-deer-644
+run_uuid: 78a0efad5e0847e8868fd9dd362334e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714166494591
+status: 3
+tags: []
+user_id: user

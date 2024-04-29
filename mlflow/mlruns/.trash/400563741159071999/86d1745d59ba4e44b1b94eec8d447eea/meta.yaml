@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/400563741159071999/86d1745d59ba4e44b1b94eec8d447eea/artifacts
+deleted_time: 1714402962957
+end_time: 1714213832061
+entry_point_name: ''
+experiment_id: '400563741159071999'
+lifecycle_stage: deleted
+run_id: 86d1745d59ba4e44b1b94eec8d447eea
+run_name: unleashed-fowl-364
+run_uuid: 86d1745d59ba4e44b1b94eec8d447eea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714213795136
+status: 4
+tags: []
+user_id: root

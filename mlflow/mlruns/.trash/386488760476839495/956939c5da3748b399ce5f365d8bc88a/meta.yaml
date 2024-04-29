@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/386488760476839495/956939c5da3748b399ce5f365d8bc88a/artifacts
+deleted_time: 1714402939251
+end_time: 1714166763011
+entry_point_name: ''
+experiment_id: '386488760476839495'
+lifecycle_stage: deleted
+run_id: 956939c5da3748b399ce5f365d8bc88a
+run_name: funny-stag-768
+run_uuid: 956939c5da3748b399ce5f365d8bc88a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714166700261
+status: 4
+tags: []
+user_id: user

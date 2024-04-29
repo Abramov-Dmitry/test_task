@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/114648610266978194/7ef07b10b9eb403fbb55cc1a95e86fd3/artifacts
+deleted_time: 1714402959674
+end_time: null
+entry_point_name: ''
+experiment_id: '114648610266978194'
+lifecycle_stage: deleted
+run_id: 7ef07b10b9eb403fbb55cc1a95e86fd3
+run_name: upbeat-trout-784
+run_uuid: 7ef07b10b9eb403fbb55cc1a95e86fd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714170443008
+status: 1
+tags: []
+user_id: user

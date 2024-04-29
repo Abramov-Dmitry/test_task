@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/595253620133343724/ba7f9058811d4bc99866a9e8b486c802/artifacts
+deleted_time: 1714402948734
+end_time: 1714167238022
+entry_point_name: ''
+experiment_id: '595253620133343724'
+lifecycle_stage: deleted
+run_id: ba7f9058811d4bc99866a9e8b486c802
+run_name: dashing-boar-169
+run_uuid: ba7f9058811d4bc99866a9e8b486c802
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167234956
+status: 4
+tags: []
+user_id: user

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/197878330044007573/82cde95d18c64d9ba92d0655ded7b1ad/artifacts
+deleted_time: 1714402964729
+end_time: 1714213874102
+entry_point_name: ''
+experiment_id: '197878330044007573'
+lifecycle_stage: deleted
+run_id: 82cde95d18c64d9ba92d0655ded7b1ad
+run_name: loud-ape-641
+run_uuid: 82cde95d18c64d9ba92d0655ded7b1ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714213874086
+status: 4
+tags: []
+user_id: user

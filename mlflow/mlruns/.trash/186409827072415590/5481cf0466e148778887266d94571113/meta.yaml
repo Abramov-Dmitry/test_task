@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/186409827072415590/5481cf0466e148778887266d94571113/artifacts
+deleted_time: 1714402956931
+end_time: 1714170400273
+entry_point_name: ''
+experiment_id: '186409827072415590'
+lifecycle_stage: deleted
+run_id: 5481cf0466e148778887266d94571113
+run_name: gaudy-elk-188
+run_uuid: 5481cf0466e148778887266d94571113
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714170400268
+status: 4
+tags: []
+user_id: user

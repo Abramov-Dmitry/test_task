@@ -1,0 +1,16 @@
+artifact_uri: file:///mlruns/510861392085035985/48e1ddb026a5474b8a3c37d423a3f81c/artifacts
+deleted_time: 1714402857936
+end_time: 1714169788014
+entry_point_name: ''
+experiment_id: '510861392085035985'
+lifecycle_stage: deleted
+run_id: 48e1ddb026a5474b8a3c37d423a3f81c
+run_name: placid-wasp-262
+run_uuid: 48e1ddb026a5474b8a3c37d423a3f81c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714169786748
+status: 4
+tags: []
+user_id: user

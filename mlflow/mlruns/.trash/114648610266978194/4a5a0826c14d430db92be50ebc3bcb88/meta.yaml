@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/114648610266978194/4a5a0826c14d430db92be50ebc3bcb88/artifacts
+deleted_time: 1714402959674
+end_time: 1714170420908
+entry_point_name: ''
+experiment_id: '114648610266978194'
+lifecycle_stage: deleted
+run_id: 4a5a0826c14d430db92be50ebc3bcb88
+run_name: luxuriant-fly-311
+run_uuid: 4a5a0826c14d430db92be50ebc3bcb88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714170420901
+status: 4
+tags: []
+user_id: user

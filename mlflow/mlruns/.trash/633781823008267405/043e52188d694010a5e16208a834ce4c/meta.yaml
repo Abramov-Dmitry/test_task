@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/633781823008267405/043e52188d694010a5e16208a834ce4c/artifacts
+deleted_time: 1714402968425
+end_time: 1714211158468
+entry_point_name: ''
+experiment_id: '633781823008267405'
+lifecycle_stage: deleted
+run_id: 043e52188d694010a5e16208a834ce4c
+run_name: silent-yak-935
+run_uuid: 043e52188d694010a5e16208a834ce4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714211157689
+status: 3
+tags: []
+user_id: user

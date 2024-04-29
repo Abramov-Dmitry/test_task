@@ -1,0 +1,15 @@
+artifact_uri: file:///mlflow/mlruns/537817069679839287/18ef748a82fc412dbe607cbe3e5ea693/artifacts
+end_time: 1714170470933
+entry_point_name: ''
+experiment_id: '537817069679839287'
+lifecycle_stage: active
+run_id: 18ef748a82fc412dbe607cbe3e5ea693
+run_name: chill-mole-184
+run_uuid: 18ef748a82fc412dbe607cbe3e5ea693
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714170467562
+status: 3
+tags: []
+user_id: user

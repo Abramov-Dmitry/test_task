@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/509385098302127963/15ab35a7cf8842ae9a0b668806e379d4/artifacts
+deleted_time: 1714167784742
+end_time: 1714166291044
+entry_point_name: ''
+experiment_id: '509385098302127963'
+lifecycle_stage: deleted
+run_id: 15ab35a7cf8842ae9a0b668806e379d4
+run_name: tasteful-lamb-275
+run_uuid: 15ab35a7cf8842ae9a0b668806e379d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714166289041
+status: 3
+tags: []
+user_id: user

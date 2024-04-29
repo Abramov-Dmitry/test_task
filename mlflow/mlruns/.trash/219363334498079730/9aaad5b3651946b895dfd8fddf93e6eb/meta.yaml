@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/219363334498079730/9aaad5b3651946b895dfd8fddf93e6eb/artifacts
+deleted_time: 1714402950940
+end_time: 1714167299664
+entry_point_name: ''
+experiment_id: '219363334498079730'
+lifecycle_stage: deleted
+run_id: 9aaad5b3651946b895dfd8fddf93e6eb
+run_name: judicious-stag-545
+run_uuid: 9aaad5b3651946b895dfd8fddf93e6eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167296611
+status: 3
+tags: []
+user_id: user

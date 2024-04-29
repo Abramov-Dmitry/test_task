@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/282888778408524065/047b028a9ee442ba88d3d9c6de1e9106/artifacts
+deleted_time: 1714402947323
+end_time: 1714167218981
+entry_point_name: ''
+experiment_id: '282888778408524065'
+lifecycle_stage: deleted
+run_id: 047b028a9ee442ba88d3d9c6de1e9106
+run_name: unruly-bat-401
+run_uuid: 047b028a9ee442ba88d3d9c6de1e9106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167215604
+status: 3
+tags: []
+user_id: user

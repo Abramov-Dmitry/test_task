@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/497868886037271607/70ac5603bbbe4cf495d695e5c29d27d8/artifacts
+deleted_time: 1714402945833
+end_time: 1714167143901
+entry_point_name: ''
+experiment_id: '497868886037271607'
+lifecycle_stage: deleted
+run_id: 70ac5603bbbe4cf495d695e5c29d27d8
+run_name: bold-skink-306
+run_uuid: 70ac5603bbbe4cf495d695e5c29d27d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167141591
+status: 3
+tags: []
+user_id: user

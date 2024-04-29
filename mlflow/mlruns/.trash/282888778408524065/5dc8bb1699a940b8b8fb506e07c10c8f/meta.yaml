@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/282888778408524065/5dc8bb1699a940b8b8fb506e07c10c8f/artifacts
+deleted_time: 1714402947323
+end_time: 1714167222619
+entry_point_name: ''
+experiment_id: '282888778408524065'
+lifecycle_stage: deleted
+run_id: 5dc8bb1699a940b8b8fb506e07c10c8f
+run_name: popular-ape-770
+run_uuid: 5dc8bb1699a940b8b8fb506e07c10c8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167218983
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,7 @@
+artifact_location: file:///mlflow/mlruns/768966424665878226
+creation_time: 1714213952134
+experiment_id: '768966424665878226'
+last_update_time: 1714402885164
+lifecycle_stage: active
+name: prophet
+tags: {}

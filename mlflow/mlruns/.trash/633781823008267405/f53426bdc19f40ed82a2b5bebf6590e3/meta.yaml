@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/633781823008267405/f53426bdc19f40ed82a2b5bebf6590e3/artifacts
+deleted_time: 1714402968425
+end_time: 1714211158637
+entry_point_name: ''
+experiment_id: '633781823008267405'
+lifecycle_stage: deleted
+run_id: f53426bdc19f40ed82a2b5bebf6590e3
+run_name: popular-mare-138
+run_uuid: f53426bdc19f40ed82a2b5bebf6590e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714211158471
+status: 3
+tags: []
+user_id: user

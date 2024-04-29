@@ -1,0 +1,16 @@
+artifact_uri: file:///mlruns/510861392085035985/ffdddd068f814092bcec95cc72532115/artifacts
+deleted_time: 1714402857936
+end_time: 1714169702799
+entry_point_name: ''
+experiment_id: '510861392085035985'
+lifecycle_stage: deleted
+run_id: ffdddd068f814092bcec95cc72532115
+run_name: lyrical-grub-747
+run_uuid: ffdddd068f814092bcec95cc72532115
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714169701464
+status: 4
+tags: []
+user_id: user

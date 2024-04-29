@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/197878330044007573/2ce19cd2760a4ddf98ad6d6aebf69179/artifacts
+deleted_time: 1714402964729
+end_time: 1714213868107
+entry_point_name: ''
+experiment_id: '197878330044007573'
+lifecycle_stage: deleted
+run_id: 2ce19cd2760a4ddf98ad6d6aebf69179
+run_name: wise-duck-274
+run_uuid: 2ce19cd2760a4ddf98ad6d6aebf69179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714213868090
+status: 4
+tags: []
+user_id: user

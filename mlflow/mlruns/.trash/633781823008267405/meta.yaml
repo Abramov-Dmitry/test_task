@@ -1,0 +1,7 @@
+artifact_location: file:///home/user/gitlab/test_task/mlflow/mlruns/633781823008267405
+creation_time: 1714211157657
+experiment_id: '633781823008267405'
+last_update_time: 1714402968425
+lifecycle_stage: deleted
+name: prophet334
+tags: {}

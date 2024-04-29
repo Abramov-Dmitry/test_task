@@ -1,0 +1,7 @@
+artifact_location: file:///mlruns/510861392085035985
+creation_time: 1714167797536
+experiment_id: '510861392085035985'
+last_update_time: 1714402857936
+lifecycle_stage: deleted
+name: rf_model
+tags: {}

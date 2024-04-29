@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/497868886037271607/90e8f84d39fc4326ae5bf6d7aa3d4a75/artifacts
+deleted_time: 1714402945833
+end_time: 1714167146601
+entry_point_name: ''
+experiment_id: '497868886037271607'
+lifecycle_stage: deleted
+run_id: 90e8f84d39fc4326ae5bf6d7aa3d4a75
+run_name: shivering-doe-116
+run_uuid: 90e8f84d39fc4326ae5bf6d7aa3d4a75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167143903
+status: 3
+tags: []
+user_id: user

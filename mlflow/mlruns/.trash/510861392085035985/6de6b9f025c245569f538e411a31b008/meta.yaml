@@ -1,0 +1,16 @@
+artifact_uri: file:///home/user/gitlab/test_task/mlflow/mlruns/510861392085035985/6de6b9f025c245569f538e411a31b008/artifacts
+deleted_time: 1714402857936
+end_time: 1714167799829
+entry_point_name: ''
+experiment_id: '510861392085035985'
+lifecycle_stage: deleted
+run_id: 6de6b9f025c245569f538e411a31b008
+run_name: classy-cow-574
+run_uuid: 6de6b9f025c245569f538e411a31b008
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714167797545
+status: 3
+tags: []
+user_id: user
