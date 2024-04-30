@@ -10,18 +10,18 @@ import mlflow
 from fastapi.responses import JSONResponse
 
 from models import Data
+from helpers.artifact_id import get_artifacts_id
 
 
 KEYS_ORDER = ['age', 'sex', 'trestbps', 'chol', 'fbs', 'thalach', 'exang']
 
 app = FastAPI()
 
-mlflow.set_tracking_uri("http://mlflow:5000")
-exp_id = mlflow.get_experiment_by_name('rf_model').experiment_id
-_id = mlflow.search_runs(exp_id).sort_values('metrics.accuracy').run_id.iloc[0]
+_id = get_artifacts_id('rf_model', 'metrics.accuracy')
 model = mlflow.sklearn.load_model(f'runs:/{_id}/sklearn')
 
-@app.post("/api")
+
+@app.post("/api/heart-risk")
 def disease_classifier(request: Data):
     """
     Принимает:
@@ -42,9 +42,7 @@ def disease_classifier(request: Data):
         )
     """
     request_data = json.loads(request.model_dump_json())
-    print(request_data)
     data = [[request_data.get(col, 0) for col in KEYS_ORDER]]
     prob = model.predict_proba(data)
 
     return JSONResponse({'heart_risk': prob[0][1]})
-
