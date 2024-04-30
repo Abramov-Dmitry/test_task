@@ -6,13 +6,15 @@
 import requests
 import gradio as gr
 from pandas import DataFrame
+from dotenv import dotenv_values
 
+envs = dotenv_values()
 
 def recommendations(age, sex, trestbps, chol, fbs, thalach, exang, steps):
     """
     Отправка запроса основному сервису
     """
-    result = requests.post('http://generation:5003/api',
+    result = requests.post(f"http://{envs['GENERATION_HOST']}:{envs['GENERATION_PORT']}/api/recommendations",
                             json={
                                   'age': age,
                                   'sex': sex,

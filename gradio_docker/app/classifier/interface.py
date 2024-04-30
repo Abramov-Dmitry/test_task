@@ -5,13 +5,16 @@
 """
 import requests
 import gradio as gr
+from dotenv import dotenv_values
+
+envs = dotenv_values("/app/.env")
 
 
 def classifier(age, sex, trestbps, chol, fbs, thalach, exang):
     """
-    Связь с API модели определения сердечных рисков
+    Отправка запроса API модели определения сердечных рисков
     """
-    result = requests.post('http://classifier:5001/api',
+    result = requests.post(f"http://{envs['CLASSIFIER_HOST']}:{envs['CLASSIFIER_PORT']}/api/heart-risk",
                             json={
                                   'age': age,
                                   'sex': sex,
@@ -25,7 +28,7 @@ def classifier(age, sex, trestbps, chol, fbs, thalach, exang):
     if result.ok:
         result = result.json()
     else:
-        raise gr.Error(f"При обрещении к сервису классификации (http://classifier:5001/api) "
+        raise gr.Error(f"При обрещении к сервису классификации (http://classifier:5001/api/heart-risk) "
                     f"статус код: {result.status_code}")
     return result['heart_risk']
 

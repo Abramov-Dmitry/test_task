@@ -10,16 +10,16 @@ from fastapi import FastAPI
 import mlflow
 
 from models import Data
+from helpers.artifact_id import get_artifacts_id
+
 
 app = FastAPI()
 
-mlflow.set_tracking_uri("http://mlflow:5000")
-exp_id = mlflow.get_experiment_by_name('prophet').experiment_id
-_id = mlflow.search_runs(exp_id).sort_values('metrics.rmse').run_id.iloc[0]
+_id = get_artifacts_id('prophet', 'metrics.rmse')
 model = mlflow.prophet.load_model(f'runs:/{_id}/prophet')
 
 
-@app.post("/api")
+@app.post("/api/temperature")
 def forecasting(request: Data):
     """
     Принимает:
@@ -33,9 +33,11 @@ def forecasting(request: Data):
     }
     """
     future = model.make_future_dataframe(request.steps,
-                                include_history=False,
-                                freq='7D')
+                                         include_history=False,
+                                         freq='7D')
     forecast = model.predict(future)[['ds', 'yhat']]
+
     forecast['ds'] = forecast.ds.astype('str')
     forecast['yhat'] = forecast['yhat'].astype('int')
+
     return JSONResponse(forecast.to_dict(orient='list'))
