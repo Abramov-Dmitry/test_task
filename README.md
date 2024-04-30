@@ -17,7 +17,7 @@
 
 ## Способ запуска:
 ```sh
-git clone https://github.com/Abramov-Dmitry/test_task.git
+git clone
 
 cd test_task
 
@@ -43,7 +43,7 @@ http://localhost:5000
 ### Сервис определения вероятности сердечных заболеваний
 Запрос
 ```sh
-curl -d '{"age": 42,"sex": 1,"trestbps": 120, "chol": 231, "fbs": 14,"thalach": 166, "exang": 100}' -H "Content-Type: application/json" -X POST http://localhost:5001/api
+curl -d '{"age": 42,"sex": 1,"trestbps": 120, "chol": 231, "fbs": 14,"thalach": 166, "exang": 100}' -H "Content-Type: application/json" -X POST http://localhost:5001/api/heart-risk
 ```
 
 Результат:
@@ -56,7 +56,7 @@ curl -d '{"age": 42,"sex": 1,"trestbps": 120, "chol": 231, "fbs": 14,"thalach": 
 ### Сервис прогнозирования температуры
 Запрос
 ```sh
-curl -d '{"steps": 12}' -H "Content-Type: application/json" -X POST http://localhost:5002/api
+curl -d '{"steps": 12}' -H "Content-Type: application/json" -X POST http://localhost:5002/api/temperature
 ```
 
 Результат:
@@ -70,7 +70,7 @@ curl -d '{"steps": 12}' -H "Content-Type: application/json" -X POST http://local
 ### Общий сервис
 Запрос
 ```sh
-curl -d '{"age": 42,"sex": 1,"trestbps": 120, "chol": 231, "fbs": 14,"thalach": 166, "exang": 100, "steps": 12}' -H "Content-Type: application/json" -X POST http://localhost:5003/api
+curl -d '{"age": 42,"sex": 1,"trestbps": 120, "chol": 231, "fbs": 14,"thalach": 166, "exang": 100, "steps": 12}' -H "Content-Type: application/json" -X POST http://localhost:5003/api/recommendations
 ```
 
 Результат
