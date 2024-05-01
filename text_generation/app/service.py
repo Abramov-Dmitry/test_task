@@ -41,7 +41,7 @@ async def generating(data: Data):
     Возвращает:
         json({
             'heart_risk': float - вероятность сердечного приступа,
-            'forecasting': [
+            'forecast': [
                 {
                     'ds': list[str],
                     'yhat': list[float]
