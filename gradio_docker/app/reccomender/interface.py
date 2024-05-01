@@ -31,7 +31,7 @@ def recommendations(age, sex, trestbps, chol, fbs, thalach, exang, steps):
     else:
         raise gr.Error(f"При обращении к общему сервису (http://generation:5003/api)"
                     f"статус код: {result.status_code}")
-    return result['heart_risk'], DataFrame(result['temp_frst']), result['chat_recommendation']
+    return result['heart_risk'], DataFrame(result['forecast']), result['chat_recommendation']
 
 
 def gr_rec_interface():
